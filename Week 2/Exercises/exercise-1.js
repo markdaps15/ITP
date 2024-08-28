@@ -52,7 +52,7 @@ console.log(power(5, 8));
 
 // Exercise 4
 
-    for (let i = 1; i <= 100; i++) {
+ /*   for (let i = 1; i <= 100; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
             console.log("FizzBuzz");
         } else if (i % 3 === 0) {
@@ -63,4 +63,24 @@ console.log(power(5, 8));
             console.log(i);
         }
     }
-    
+    */
+
+
+    //Errol's code
+// Exercise 3
+/*function calculatePower() {
+    const base = parseFloat(prompt("Enter the base:"));
+    const exponent = parseFloat(prompt("Enter the exponent:"));
+    // Validate inputs
+    if (isNaN(base) || isNaN(exponent)) {
+      console.error("Invalid input. Please enter numeric values.");
+      return;
+    }
+    let result = 1;
+    for (let i = 0; i < exponent; i++) {
+      result *= base;
+    }
+    console.log(`${base} raised to the power of ${exponent} is ${result}`);
+  }
+  
+  calculatePower();*/
